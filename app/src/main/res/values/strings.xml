@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Zipay Test</string>
+    <string name="nav_history">History</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_deals">Deals</string>
+    <string name="nav_profile">Me</string>
+    <string name="scan_title">Scan</string>
+    <string name="topup_title">Top Up</string>
+    <string name="send_title">Send</string>
+    <string name="request_title">Request</string>
+    <string name="phone_credit">Phone\nCredit</string>
+    <string name="mobile_data">Mobile\nData</string>
+    <string name="pln">PLN</string>
+    <string name="more">More</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="food">Food \nBeverage</string>
+</resources>

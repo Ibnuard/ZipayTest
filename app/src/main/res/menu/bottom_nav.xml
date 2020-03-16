@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/navigate_home"
+        android:icon="@drawable/ic_home_nav_selector"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@id/navigate_history"
+        android:icon="@drawable/ic_history_nav_selector"
+        android:title="@string/nav_history" />
+
+    <item
+        android:id="@id/navigate_deals"
+        android:icon="@drawable/ic_deals_nav_selector"
+        android:title="@string/nav_deals" />
+
+    <item
+        android:id="@id/navigate_profile"
+        android:icon="@drawable/ic_profile_nav_selector"
+        android:title="@string/nav_profile" />
+</menu>

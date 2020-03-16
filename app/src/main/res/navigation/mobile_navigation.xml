@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigate_home">
+
+    <fragment
+        android:id="@+id/navigate_home"
+        android:name="com.ibnuputra.zipaytest.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/navigate_history"
+        android:name="com.ibnuputra.zipaytest.fragment.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/history_fragment" />
+
+    <fragment
+        android:id="@+id/navigate_deals"
+        android:name="com.ibnuputra.zipaytest.fragment.DealsFragment"
+        android:label="Deals"
+        tools:layout="@layout/deals_fragment" />
+
+    <fragment
+        android:id="@+id/navigate_profile"
+        android:name="com.ibnuputra.zipaytest.fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
+</navigation>
