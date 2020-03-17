@@ -28,6 +28,12 @@ class LoginActivity : AppCompatActivity() {
 
         loginState()
 
+        gotoSignUp.setOnClickListener {
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
+
         inputPhone.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable) {
 

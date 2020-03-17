@@ -61,7 +61,8 @@
     <ScrollView
         android:layout_below="@id/header"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:scrollbars="none">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -157,6 +158,7 @@
                                     android:textColor="@color/colorBlack"/>
                             </LinearLayout>
                             <LinearLayout
+                                android:id="@+id/topUp"
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
                                 android:layout_height="wrap_content"
